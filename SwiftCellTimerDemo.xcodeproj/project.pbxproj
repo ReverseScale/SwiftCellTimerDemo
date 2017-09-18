@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		345388D41F6FA4BA00E37B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345388D31F6FA4BA00E37B6E /* AppDelegate.swift */; };
+		345388DB1F6FA4BA00E37B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345388DA1F6FA4BA00E37B6E /* Assets.xcassets */; };
+		345388DE1F6FA4BA00E37B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345388DC1F6FA4BA00E37B6E /* LaunchScreen.storyboard */; };
+		345388E91F6FA4BA00E37B6E /* SwiftCellTimerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345388E81F6FA4BA00E37B6E /* SwiftCellTimerDemoTests.swift */; };
+		345388F41F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345388F31F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests.swift */; };
+		3453890A1F6FA6C700E37B6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345389051F6FA6C700E37B6E /* ViewController.swift */; };
+		3453890B1F6FA6C700E37B6E /* TimerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345389061F6FA6C700E37B6E /* TimerUtil.swift */; };
+		3453890C1F6FA6C700E37B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345389081F6FA6C700E37B6E /* Main.storyboard */; };
+		3453890D1F6FA6C700E37B6E /* TimerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345389091F6FA6C700E37B6E /* TimerTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345388E51F6FA4BA00E37B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345388C81F6FA4BA00E37B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345388CF1F6FA4BA00E37B6E;
+			remoteInfo = SwiftCellTimerDemo;
+		};
+		345388F01F6FA4BA00E37B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 345388C81F6FA4BA00E37B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 345388CF1F6FA4BA00E37B6E;
+			remoteInfo = SwiftCellTimerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		345388D01F6FA4BA00E37B6E /* SwiftCellTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCellTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		345388D31F6FA4BA00E37B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		345388DA1F6FA4BA00E37B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		345388DD1F6FA4BA00E37B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		345388DF1F6FA4BA00E37B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345388E41F6FA4BA00E37B6E /* SwiftCellTimerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCellTimerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		345388E81F6FA4BA00E37B6E /* SwiftCellTimerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCellTimerDemoTests.swift; sourceTree = "<group>"; };
+		345388EA1F6FA4BA00E37B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345388EF1F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCellTimerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		345388F31F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCellTimerDemoUITests.swift; sourceTree = "<group>"; };
+		345388F51F6FA4BA00E37B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345389051F6FA6C700E37B6E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../CellTimerDemo-master（cell runloop加载倒计时）/CellTimerDemo/ViewController.swift"; sourceTree = "<group>"; };
+		345389061F6FA6C700E37B6E /* TimerUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerUtil.swift; path = "../../CellTimerDemo-master（cell runloop加载倒计时）/CellTimerDemo/TimerUtil.swift"; sourceTree = "<group>"; };
+		345389071F6FA6C700E37B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		345389091F6FA6C700E37B6E /* TimerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerTableViewCell.swift; path = "../../CellTimerDemo-master（cell runloop加载倒计时）/CellTimerDemo/TimerTableViewCell.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345388CD1F6FA4BA00E37B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345388E11F6FA4BA00E37B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345388EC1F6FA4BA00E37B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345388C71F6FA4BA00E37B6E = {
+			isa = PBXGroup;
+			children = (
+				345388D21F6FA4BA00E37B6E /* SwiftCellTimerDemo */,
+				345388E71F6FA4BA00E37B6E /* SwiftCellTimerDemoTests */,
+				345388F21F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests */,
+				345388D11F6FA4BA00E37B6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		345388D11F6FA4BA00E37B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				345388D01F6FA4BA00E37B6E /* SwiftCellTimerDemo.app */,
+				345388E41F6FA4BA00E37B6E /* SwiftCellTimerDemoTests.xctest */,
+				345388EF1F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		345388D21F6FA4BA00E37B6E /* SwiftCellTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				345388D31F6FA4BA00E37B6E /* AppDelegate.swift */,
+				345389051F6FA6C700E37B6E /* ViewController.swift */,
+				345389091F6FA6C700E37B6E /* TimerTableViewCell.swift */,
+				345389061F6FA6C700E37B6E /* TimerUtil.swift */,
+				345389081F6FA6C700E37B6E /* Main.storyboard */,
+				345388DA1F6FA4BA00E37B6E /* Assets.xcassets */,
+				345388DC1F6FA4BA00E37B6E /* LaunchScreen.storyboard */,
+				345388DF1F6FA4BA00E37B6E /* Info.plist */,
+			);
+			path = SwiftCellTimerDemo;
+			sourceTree = "<group>";
+		};
+		345388E71F6FA4BA00E37B6E /* SwiftCellTimerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				345388E81F6FA4BA00E37B6E /* SwiftCellTimerDemoTests.swift */,
+				345388EA1F6FA4BA00E37B6E /* Info.plist */,
+			);
+			path = SwiftCellTimerDemoTests;
+			sourceTree = "<group>";
+		};
+		345388F21F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				345388F31F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests.swift */,
+				345388F51F6FA4BA00E37B6E /* Info.plist */,
+			);
+			path = SwiftCellTimerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		345388CF1F6FA4BA00E37B6E /* SwiftCellTimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345388F81F6FA4BA00E37B6E /* Build configuration list for PBXNativeTarget "SwiftCellTimerDemo" */;
+			buildPhases = (
+				345388CC1F6FA4BA00E37B6E /* Sources */,
+				345388CD1F6FA4BA00E37B6E /* Frameworks */,
+				345388CE1F6FA4BA00E37B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCellTimerDemo;
+			productName = SwiftCellTimerDemo;
+			productReference = 345388D01F6FA4BA00E37B6E /* SwiftCellTimerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		345388E31F6FA4BA00E37B6E /* SwiftCellTimerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345388FB1F6FA4BA00E37B6E /* Build configuration list for PBXNativeTarget "SwiftCellTimerDemoTests" */;
+			buildPhases = (
+				345388E01F6FA4BA00E37B6E /* Sources */,
+				345388E11F6FA4BA00E37B6E /* Frameworks */,
+				345388E21F6FA4BA00E37B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345388E61F6FA4BA00E37B6E /* PBXTargetDependency */,
+			);
+			name = SwiftCellTimerDemoTests;
+			productName = SwiftCellTimerDemoTests;
+			productReference = 345388E41F6FA4BA00E37B6E /* SwiftCellTimerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		345388EE1F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345388FE1F6FA4BA00E37B6E /* Build configuration list for PBXNativeTarget "SwiftCellTimerDemoUITests" */;
+			buildPhases = (
+				345388EB1F6FA4BA00E37B6E /* Sources */,
+				345388EC1F6FA4BA00E37B6E /* Frameworks */,
+				345388ED1F6FA4BA00E37B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				345388F11F6FA4BA00E37B6E /* PBXTargetDependency */,
+			);
+			name = SwiftCellTimerDemoUITests;
+			productName = SwiftCellTimerDemoUITests;
+			productReference = 345388EF1F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		345388C81F6FA4BA00E37B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					345388CF1F6FA4BA00E37B6E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					345388E31F6FA4BA00E37B6E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 345388CF1F6FA4BA00E37B6E;
+					};
+					345388EE1F6FA4BA00E37B6E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 345388CF1F6FA4BA00E37B6E;
+					};
+				};
+			};
+			buildConfigurationList = 345388CB1F6FA4BA00E37B6E /* Build configuration list for PBXProject "SwiftCellTimerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 345388C71F6FA4BA00E37B6E;
+			productRefGroup = 345388D11F6FA4BA00E37B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				345388CF1F6FA4BA00E37B6E /* SwiftCellTimerDemo */,
+				345388E31F6FA4BA00E37B6E /* SwiftCellTimerDemoTests */,
+				345388EE1F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		345388CE1F6FA4BA00E37B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3453890C1F6FA6C700E37B6E /* Main.storyboard in Resources */,
+				345388DE1F6FA4BA00E37B6E /* LaunchScreen.storyboard in Resources */,
+				345388DB1F6FA4BA00E37B6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345388E21F6FA4BA00E37B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345388ED1F6FA4BA00E37B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		345388CC1F6FA4BA00E37B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3453890B1F6FA6C700E37B6E /* TimerUtil.swift in Sources */,
+				3453890A1F6FA6C700E37B6E /* ViewController.swift in Sources */,
+				345388D41F6FA4BA00E37B6E /* AppDelegate.swift in Sources */,
+				3453890D1F6FA6C700E37B6E /* TimerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345388E01F6FA4BA00E37B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345388E91F6FA4BA00E37B6E /* SwiftCellTimerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		345388EB1F6FA4BA00E37B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345388F41F6FA4BA00E37B6E /* SwiftCellTimerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		345388E61F6FA4BA00E37B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345388CF1F6FA4BA00E37B6E /* SwiftCellTimerDemo */;
+			targetProxy = 345388E51F6FA4BA00E37B6E /* PBXContainerItemProxy */;
+		};
+		345388F11F6FA4BA00E37B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 345388CF1F6FA4BA00E37B6E /* SwiftCellTimerDemo */;
+			targetProxy = 345388F01F6FA4BA00E37B6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		345388DC1F6FA4BA00E37B6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345388DD1F6FA4BA00E37B6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		345389081F6FA6C700E37B6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				345389071F6FA6C700E37B6E /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../../CellTimerDemo-master（cell runloop加载倒计时）/CellTimerDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		345388F61F6FA4BA00E37B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		345388F71F6FA4BA00E37B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		345388F91F6FA4BA00E37B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = SwiftCellTimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S..SwiftCellTimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		345388FA1F6FA4BA00E37B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = SwiftCellTimerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S..SwiftCellTimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		345388FC1F6FA4BA00E37B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftCellTimerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S..SwiftCellTimerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCellTimerDemo.app/SwiftCellTimerDemo";
+			};
+			name = Debug;
+		};
+		345388FD1F6FA4BA00E37B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftCellTimerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S..SwiftCellTimerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCellTimerDemo.app/SwiftCellTimerDemo";
+			};
+			name = Release;
+		};
+		345388FF1F6FA4BA00E37B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwiftCellTimerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S..SwiftCellTimerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftCellTimerDemo;
+			};
+			name = Debug;
+		};
+		345389001F6FA4BA00E37B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwiftCellTimerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S..SwiftCellTimerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftCellTimerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		345388CB1F6FA4BA00E37B6E /* Build configuration list for PBXProject "SwiftCellTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345388F61F6FA4BA00E37B6E /* Debug */,
+				345388F71F6FA4BA00E37B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345388F81F6FA4BA00E37B6E /* Build configuration list for PBXNativeTarget "SwiftCellTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345388F91F6FA4BA00E37B6E /* Debug */,
+				345388FA1F6FA4BA00E37B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		345388FB1F6FA4BA00E37B6E /* Build configuration list for PBXNativeTarget "SwiftCellTimerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345388FC1F6FA4BA00E37B6E /* Debug */,
+				345388FD1F6FA4BA00E37B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		345388FE1F6FA4BA00E37B6E /* Build configuration list for PBXNativeTarget "SwiftCellTimerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345388FF1F6FA4BA00E37B6E /* Debug */,
+				345389001F6FA4BA00E37B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 345388C81F6FA4BA00E37B6E /* Project object */;
+}
