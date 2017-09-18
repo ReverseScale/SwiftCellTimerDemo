@@ -2,8 +2,8 @@
 Swift 使用 RunLoop 实现 TableView 的 Cell 上的倒计时⏳效果
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
-![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
-![](https://img.shields.io/badge/download-791K-brightgreen.svg)
+![](https://img.shields.io/badge/language-Swift-orange.svg) 
+![](https://img.shields.io/badge/download-1.9MB-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 众所周知，关于重用的 Cell 和 Timer 一直是对死敌，只有 RunLoop 才能让他们关系稍稍缓和一些，之前有用 OC 做过，今天把这个 Swift 的奉上。
