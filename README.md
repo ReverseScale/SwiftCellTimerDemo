@@ -2,7 +2,7 @@
 Swift 使用 RunLoop 实现 TableView 的 Cell 上的倒计时⏳效果
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
-![](https://img.shields.io/badge/language-Swift-orange.svg) 
+![](https://img.shields.io/badge/language-swift-orange.svg) 
 ![](https://img.shields.io/badge/download-1.9MB-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
